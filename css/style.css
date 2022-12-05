@@ -2329,7 +2329,6 @@ body.ie ._ibg img {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
-  background: green;
 }
 
 .spolers__body-item:not(:last-child) {
@@ -2498,41 +2497,6 @@ body.ie ._ibg img {
   margin: 0 auto;
   position: relative;
   z-index: 2;
-}
-
-.forms {
-  max-width: 1850px;
-  margin: 0 auto;
-}
-
-.form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  font-size: 20px;
-}
-
-.input {
-  font-size: 20px;
-  max-width: 300px;
-}
-
-.btn-orange {
-  font-size: 20px;
-}
-
-.animate__text {
-  max-width: 700px;
-}
-
-.animate__text-item {
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 60px;
 }
 
 @media (min-width: 767.98px) {
@@ -3491,10 +3455,6 @@ body.ie ._ibg img {
 
   .spolers__body-item-title:hover {
     background-color: #343740;
-  }
-
-  .animate__text-item:nth-child(2):hover {
-    font-size: 50px;
   }
 }
 
